@@ -8,5 +8,6 @@ import com.example.demo.collections.Books;
 
 public interface BookRepository extends MongoRepository<Books, String>{
 	
+	//Retrieve all the books from MongoDB
 	List<Books> findAll();
 }
