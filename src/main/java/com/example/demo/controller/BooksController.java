@@ -27,7 +27,7 @@ public class BooksController {
 		List<String> suggestions = new ArrayList<String>();
 		bookList = bookRepository.findAll();
 		for(Books book : bookList) {
-			if(book.getAuthor().toLowerCase().contains(term)) {
+			if(book.getAuthor().toLowerCase().contains(term.toLowerCase())) {
 				suggestions.add(book.getName());
 			}
 		}
