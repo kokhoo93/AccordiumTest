@@ -1,6 +1,6 @@
-# AccordiumTest
+# Book Name Autocomplete
 
-This is a demo answer for Accordium technical test.
+This is a simple web application to search the book based on the author's name. The minimum length of the author's name need to be enter must be at least 3 characters for successful wildcard search.
 
 Steps to start :
 1. Start your Spring Boot application.
@@ -11,3 +11,8 @@ Technology stack used :
 1. Backend  - Spring Boot
 2. Frontend - Thymeleaf, jQuery
 3. Database - MongoDB
+
+Lesson learned :
+1. Proper Spring MVC structure.
+2. Connect to MongoDB using Java.
+3. Write an application with Spring Boot.
