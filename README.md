@@ -14,5 +14,5 @@ Technology stack used :
 
 Lesson learned :
 1. Proper Spring MVC structure.
-2. Connect to MongoDB using Java.
+2. Integrate MongoDB using Java.
 3. Write an application with Spring Boot.
